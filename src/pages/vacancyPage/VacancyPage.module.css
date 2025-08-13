@@ -1,0 +1,40 @@
+.wrapper {
+  margin: 25px 400px;
+}
+
+.wrapper__apply {
+  padding: 5px 15px;
+  border: none;
+  border-radius: 5px;
+  color: rgba(15, 15, 16, 1);
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+
+.wrapper__info {
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0 0 10px rgba(28, 29, 31, 0.1);
+  border-radius: 15px;
+  padding: 16px;
+}
+
+h3 {
+  font-family: Open Sans;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  margin-bottom: 5px;
+}
+
+.wrapper__text {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: rgba(0, 0, 0, 1);
+}

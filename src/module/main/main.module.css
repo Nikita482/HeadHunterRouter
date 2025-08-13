@@ -1,0 +1,23 @@
+.main {
+  padding: 24px 220px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(250, 250, 250);
+}
+
+.main__box {
+  width: 30%;
+  height: auto;
+  margin-right: 24px;
+  position: relative;
+}
+
+.main__filters {
+  width: 100%;
+  position: sticky;
+  top: 20px;
+}
+
+.main__cards {
+  flex: 1;
+}

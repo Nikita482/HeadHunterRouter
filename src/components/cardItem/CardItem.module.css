@@ -1,0 +1,82 @@
+/* .card {
+} */
+
+.cardsList__title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: rgba(54, 79, 199, 1);
+  font-style: SemiBold;
+}
+
+.cardsList__salaryExperience {
+  display: flex;
+  margin-top: 5px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  font-style: Regular;
+}
+
+.cardsList__experience {
+  margin-left: 20px;
+  color: rgba(15, 15, 16, 0.5);
+}
+
+.cardsList__companyName {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: rgba(15, 15, 16, 0.5);
+  margin-top: 16px;
+}
+
+.cardsList__workFormat {
+  margin: 5px 0;
+}
+
+.cardsList__office,
+.cardsList__hybrid,
+.cardsList__remote {
+  font-family: Inter;
+  font-weight: 700;
+  font-style: Bold;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 1);
+  font-size: 12px;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+
+.cardsList__office {
+  color: rgba(15, 15, 16, 0.5);
+  background-color: rgba(15, 15, 16, 0.1);
+}
+
+.cardsList__hybrid {
+  font-size: 10px;
+  background-color: black;
+}
+
+.cardsList__remote {
+  background-color: rgb(77, 106, 255);
+}
+
+.cardsList__btns {
+  display: flex;
+  margin-top: 16px;
+}
+
+.cardsList__apply {
+  padding: 5px 15px;
+  border: none;
+  border-radius: 5px;
+  color: rgba(15, 15, 16, 1);
+  background-color: rgba(15, 15, 16, 0.1);
+  text-decoration: none;
+}

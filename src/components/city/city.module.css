@@ -1,0 +1,46 @@
+.city {
+  margin-top: 10px;
+  padding: 24px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0 0 10px rgba(28, 29, 31, 0.1);
+  border-radius: 15px;
+}
+
+.city__box {
+  position: relative;
+}
+
+.city__box img {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.city__mainBtn {
+  width: 100%;
+  background-color: transparent;
+  color: rgba(15, 15, 16, 0.3);
+  text-align: left;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 34px;
+  letter-spacing: 0%;
+  padding-left: 35px;
+  border: 1px solid rgba(15, 15, 16, 0.3);
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.city__btn {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  text-align: left;
+  padding: 5px 8px;
+  border-radius: 8px;
+}
+
+.city__btn:hover {
+  background-color: rgb(245, 245, 245);
+}

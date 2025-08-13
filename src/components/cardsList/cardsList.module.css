@@ -1,0 +1,32 @@
+.cardsList {
+  font-family: Open Sans;
+  color: rgba(15, 15, 16, 0.5);
+}
+
+.cardsList__pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.cardsList__view {
+  margin-right: 12px;
+  padding: 0 15px;
+  border: none;
+  border-radius: 5px;
+  color: rgba(15, 15, 16, 1);
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardsList__apply {
+  padding: 5px 15px;
+  border: none;
+  border-radius: 5px;
+  color: rgba(15, 15, 16, 1);
+  background-color: rgba(15, 15, 16, 0.1);
+  text-decoration: none;
+}

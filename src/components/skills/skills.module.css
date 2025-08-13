@@ -1,0 +1,39 @@
+.skills {
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0 0 10px rgba(28, 29, 31, 0.1);
+  padding: 0 10px 10px 10px;
+  border-radius: 15px;
+}
+
+.skills__pole {
+  width: 100% !important;
+  height: 30px !important;
+  border: 1px solid rgba(15, 15, 16, 0.3) !important;
+  border-radius: 8px !important;
+  padding: 0 10px !important;
+}
+
+.skills__title {
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  line-height: 20px !important;
+  letter-spacing: 0% !important;
+}
+
+.skills__btn {
+  width: 40px !important;
+  height: 30px !important;
+  padding: 0 !important;
+  background-color: rgba(34, 139, 230, 0.7) !important;
+}
+
+.skills__btn p {
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 30px;
+  transform: translateY(-3px);
+}
+
+.skills__pole::placeholder {
+  color: rgba(15, 15, 16, 0.3) !important;
+}
