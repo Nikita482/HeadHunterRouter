@@ -1,5 +1,4 @@
 import styles from "./City.module.css";
-import { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import type { RootState } from "../../store/store";
 import { setCityList } from "../../store/cartSlice";
@@ -32,15 +31,6 @@ const City = () => {
 
   return (
     <section className={styles.city}>
-      {/* <div className={styles.city__box}>
-        <img src={cityIcons} alt="cityIcons" />
-        <button
-          onClick={() => setOpened((i) => !i)}
-        >
-          {selectedCity || "Все города"}
-        </button>
-      </div> */}
-
       <Select
         placeholder="Все города"
         value={selectedCity || null}
