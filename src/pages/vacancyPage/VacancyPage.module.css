@@ -1,3 +1,9 @@
+.loading {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
 .wrapper {
   margin: 25px 400px;
 }

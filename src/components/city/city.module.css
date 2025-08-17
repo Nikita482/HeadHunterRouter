@@ -17,22 +17,7 @@
   transform: translateY(-50%);
 }
 
-.city__mainBtn {
-  width: 100%;
-  background-color: transparent;
-  color: rgba(15, 15, 16, 0.3);
-  text-align: left;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 34px;
-  letter-spacing: 0%;
-  padding-left: 35px;
-  border: 1px solid rgba(15, 15, 16, 0.3);
-  border-radius: 5px;
-  margin-bottom: 5px;
-}
-
-.city__btn {
+/* .city__btn {
   width: 100%;
   background-color: transparent;
   border: none;
@@ -43,4 +28,4 @@
 
 .city__btn:hover {
   background-color: rgb(245, 245, 245);
-}
+} */

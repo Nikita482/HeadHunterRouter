@@ -5,7 +5,7 @@ import type { RootState, AppDispatch } from "../../store/store";
 import { fetchCards, setPage, setCityList } from "../../store/cartSlice";
 import { Pagination } from "@mantine/core";
 import { useSearchParams, Link } from "react-router-dom";
-import CardItem from "../cardItem/CardItem";
+import CardItem from "../../components/cardItem/CardItem";
 
 const CardsList = () => {
   const [searchParams] = useSearchParams();
@@ -32,10 +32,7 @@ const CardsList = () => {
     <section className={styles.cardsList}>
       {data?.items.map((item) => (
         <CardItem key={item.id} item={item}>
-          <Link
-            to={`/vacancies/${item.id}?name=nek`}
-            className={styles.cardsList__view}
-          >
+          <Link to={`/vacancies/${item.id}`} className={styles.cardsList__view}>
             Смотреть вакансию
           </Link>
 
