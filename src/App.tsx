@@ -1,19 +1,35 @@
 import "./App.css";
-import { Routes, Route } from "react-router-dom";
 import HomePage from "./pages/homePage/HomePage";
 import VacancyPage from "./pages/vacancyPage/VacancyPage";
 import Header from "./module/header/Header";
 
-// 123
+import { createHashRouter, RouterProvider } from "react-router-dom";
+
+const router = createHashRouter([
+  {
+    path: "/",
+    element: (
+      <>
+        <Header />
+        <HomePage />
+      </>
+    ),
+  },
+  {
+    path: "/vacancies/:id",
+    element: (
+      <>
+        <Header />
+        <VacancyPage />
+      </>
+    ),
+  },
+]);
+
 function App() {
   return (
     <>
-      <Header />
-
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/vacancies/:id" element={<VacancyPage />} />
-      </Routes>
+      <RouterProvider router={router} />
     </>
   );
 }

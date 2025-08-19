@@ -7,15 +7,15 @@ import "@mantine/core/styles.css";
 import { Provider } from "react-redux";
 import { Store } from "./store/store.ts";
 
-import { HashRouter } from "react-router-dom";
+// import { HashRouter } from "react-router-dom";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <MantineProvider>
       <Provider store={Store}>
-        <HashRouter>
-          <App />
-        </HashRouter>
+        {/* <HashRouter> */}
+        <App />
+        {/* </HashRouter> */}
       </Provider>
     </MantineProvider>
   </StrictMode>

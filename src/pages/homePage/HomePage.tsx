@@ -1,7 +1,6 @@
 import styles from "./homePage.module.css";
 import Search from "../../module/search/search";
 import Skills from "../../components/skills/Skills";
-import City from "../../components/city/City";
 import CardsList from "../../module/cardsList/CardsList";
 
 const HomePage = () => {
@@ -13,7 +12,6 @@ const HomePage = () => {
         <div className={styles.main__box}>
           <div className={styles.main__filters}>
             <Skills />
-            <City />
           </div>
         </div>
 
