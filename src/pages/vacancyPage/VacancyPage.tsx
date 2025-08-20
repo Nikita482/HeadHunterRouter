@@ -40,7 +40,6 @@ const VacancyPage = () => {
       <CardItem item={vacancy}>
         <button className={styles.wrapper__apply}>Откликнуться на hh.ru</button>
       </CardItem>
-
       <div className={styles.wrapper__info}>
         <h3>Компания</h3>
         <p className={styles.wrapper__text}>

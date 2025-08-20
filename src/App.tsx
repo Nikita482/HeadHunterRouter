@@ -2,6 +2,7 @@ import "./App.css";
 import HomePage from "./pages/homePage/HomePage";
 import VacancyPage from "./pages/vacancyPage/VacancyPage";
 import Header from "./module/header/Header";
+import PageError from "./pages/pageError/PageError";
 
 import { createHashRouter, RouterProvider } from "react-router-dom";
 
@@ -14,6 +15,12 @@ const router = createHashRouter([
         <HomePage />
       </>
     ),
+    errorElement: (
+      <>
+        <Header />
+        <PageError />
+      </>
+    ),
   },
   {
     path: "/vacancies/:id",
@@ -21,6 +28,12 @@ const router = createHashRouter([
       <>
         <Header />
         <VacancyPage />
+      </>
+    ),
+    errorElement: (
+      <>
+        <Header />
+        <PageError />
       </>
     ),
   },
