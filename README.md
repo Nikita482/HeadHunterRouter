@@ -72,4 +72,4 @@ export default tseslint.config([
 
 ## Демо
 
-[Смотреть приложение на GitHub Pages](https://nikita482.github.io/HeadHunterParams/)
+[Смотреть приложение на GitHub Pages](https://nikita482.github.io/HeadHunterRouter/)
